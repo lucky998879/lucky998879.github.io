@@ -1,0 +1,207 @@
+ @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Lora:ital@1&family=Noto+Serif+TC:wght@500&family=Raleway:ital,wght@0,900;1,300&family=Rubik:ital@1&display=swap');
+
+html {scroll-behavior: smooth;}
+* {box-sizing: border-box;}        
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;}
+
+div.wrap-all {
+    width: 1024px;
+    margin: 12px auto;}
+header{
+    display: flex;
+    align-items: end;
+    width: 100%;
+}
+div.logo{
+    width: 146px;
+    height: 86px;  
+    background-image: url(picture/logo.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+header a {
+        color: #281414;
+        display: block;
+        text-decoration: none;}       
+ul {
+    font-size: 20px;/*最上方選單文字*/
+    margin: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 45px;
+    gap: 20px;
+    padding: 5px 10px;
+}
+ul.menu a:hover {
+    /*當滑鼠移上超連結時的狀態*/
+    background-color: #bab2b2;
+    border-radius: 15px;
+        }
+        
+section.banner { 
+    background-image: url(picture/main.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover; 
+    padding-left: 50px;
+    margin: 0 0 20px;
+    text-align: center;  
+    border-radius: 20px;
+        }
+section {
+    font-size: 25px;
+    width: 100%;
+    height: 700px;
+    flex-direction: row;
+    padding: 20px 10px;
+    background-color:#dad9d9;
+    /* text-align: center; */
+    margin-bottom: 20px;/*分開section*/
+    border-radius: 20px;      }
+section.menu{
+    flex-direction: row;
+    padding: 20px 10px;
+    border-radius: 20px;      
+    height: 450px;
+    gap: 25px; 
+    display: flex;
+            }
+
+.menu{
+    display: flex;
+}
+
+div.card-ig{background-image: url(picture/ig.jpg);
+height: 50px;
+width:100%;
+background-repeat: no-repeat;
+margin-left: 360px ;
+}
+
+    div.Card{
+        height: 350px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;}
+            
+    p{
+        color: #959F8E;
+        background-color: #efeeecf6;
+        font-size: 15px;
+        line-height: 160%;
+        border-radius: 10px;
+    }    
+    .card-image{    
+        width:100%;
+        height: 200px;
+        background-size: cover;
+        border-radius: 20px;}
+    .one .card-image {background-image: url(picture/cake.jpg);}
+    .two .card-image {background-image: url(picture/chocolate.jpg);}
+    .three .card-image {background-image: url(picture/cookie.jpg);}
+    .card-desc{
+        color:#959F8E(0, 0, 0);
+        font-size: 15px;
+        padding-top: 500px;
+        text-align: center;}
+    a.card_button{
+        font-size: 18px;
+        line-height: 40px;
+        display: block;
+        color: #779276;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid rgb(146, 143, 143);
+        margin-top: 30px;
+    }
+   
+    div.middle-intro{
+        font-size: 20px;
+        text-align: center;
+        line-height: 35px;
+        font-family: 'Noto Serif TC'
+    }  
+
+ /* 以下為about 區塊內容; */
+div.aboutin{
+    display: flex;
+    flex-direction: row;
+    }
+#about h2 {
+    width: 100%;
+    text-align:center;
+    margin: 5px;
+}
+#about h3 {
+    width: 100%;
+    text-align:center;
+    line-height: 10px;
+    font-family: 'Courier New', Courier, monospace
+}
+#about h5 {
+    width: 90%;
+    text-align:justify;
+    margin: 10px;
+}
+div.intro1 {
+    width: 60%;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+    color: #47573c;
+    display: flex;
+    flex-direction: column;
+    }
+.chief {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+    background-repeat: no-repeat;
+    background-image:url(picture/chief.jpg) ;
+    }
+#about img{
+    padding-right: 50px;
+    margin-left: 310px;}
+
+/* 以下為news 區塊內容; */
+#news h2 {
+    width: 100%;
+    text-align:center;
+    margin: 5px;
+}
+.intro-content {
+    background-color: #EFE5DC;
+    border-radius: 20px;  
+    }
+.intro-content h4 { 
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    } 
+.intro-content p {
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    font-size: 22px;}
+
+/* 以下為products 區塊內容; */
+#product h2 {
+    width: 100%;
+    text-align:center;
+    margin: 5px;}
+div.intro-img{
+   margin-left: 122px; 
+   margin-top: 30px;
+}
+/* 以下為footer 區塊內容; */     
+footer {
+    width: 1024px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;  
+    }
